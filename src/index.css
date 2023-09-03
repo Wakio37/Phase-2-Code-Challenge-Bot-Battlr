@@ -12,6 +12,7 @@ body {
   overflow-x: scroll;
   min-height: 300px;
   max-width: 100%;
+  /* padding: 20px; */
 }
 
 .ui.grid > .row.bot-army-row {
@@ -22,3 +23,47 @@ body {
 .ui.grid {
   padding: 0px 20px;
 }
+
+button {
+  border: none;
+  margin: 1px;
+  background-color: transparent;
+  
+}
+
+/* button on hover */
+button:hover {
+  /* background-color: #eee; */
+  cursor: pointer;
+
+}
+
+#close {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  color: #c60d0d;
+  font-weight: bold;
+  padding: 2px;
+  border: #c60d0d 1px solid;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection {
+  /* border:#c60d0d 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bot-spec {
+  /* max-width: 600px; */
+  /* border: #c60d0d 1px solid; */
+}
+
+
